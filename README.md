@@ -35,8 +35,8 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Fernandoalf06/konser-ticket.git
-cd konser-ticket
+git clone https://github.com/risqirama/tiket_bola.git
+cd tiket_bola
 ```
 
 2. Set up the frontend:
