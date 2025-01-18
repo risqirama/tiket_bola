@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import ConcertList from './components/ConcertList'
+import ConcertList from './components/MatchList'
 import BookingForm from './components/BookingForm'
 import BookingSuccess from './pages/BookingSuccess'
 
@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <main className="container mx-auto px-4 py-8">
           <Routes>
-            <Route path="/" element={<ConcertList />} />
+            <Route path="/" element={<MatchList />} />
             <Route path="/book/:id" element={<BookingForm />} />
             <Route path="/booking-success" element={<BookingSuccess />} />
           </Routes>
