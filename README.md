@@ -1,12 +1,12 @@
-# Concert Ticket Booking System
+# FOOTBALL TICKET BOOKING
 
 A web application for booking concert tickets built with React.js and PHP.
 
 ## Features
 
-- View list of available concerts
-- View concert details
-- Book tickets for concerts
+- View list of available matches
+- View matches details
+- Book tickets for matches
 - Real-time ticket availability tracking
 - Booking confirmation system
 
